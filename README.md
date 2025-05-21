@@ -19,16 +19,16 @@ End-to-end (E2E) tests simulate real user interactions and workflows. Checking a
 
 **Answer:**  
 - **Navigation Mode** runs a full page load from scratch and measures performance, accessibility, and load times as the user would experience them.  
-- **Snapshot Mode** analyzes the page in its current visual state without reloading it, which is useful for catching layout or accessibility issues but not performance-related ones.
+- **Snapshot Mode** analyzes the page (no reload) in its current visual state without reloading it, which is useful for catching layout or accessibility issues but not performance-related ones.
 
 ---
 
 ### 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
 
 **Answer:**  
-1. **Optimize images** by compressing them to reduce load time.  
-2. **Minimize unused JavaScript** to make the site load and interact faster.  
-3. **Add descriptive alt text** for all images to improve accessibility for screen readers.
+1. **`<html>` element doesn't have [lang] attribute** - This means that the screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page is not in the user's default language, the screen reader might pronounce things wrong.  
+2. **No `<meta name="viewport">` tag found** - A `<meta name="viewport">` not only optimizes the app for mobile screen sizes, but also prevents a 300 millisecond delay to user input.  
+3. **Document does not have a meta description** - Meta descriptions may be included in search results to concisely summarize page content.
 
 
 
