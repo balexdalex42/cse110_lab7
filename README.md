@@ -1,4 +1,4 @@
-**Gaurav Nair, Alex Tatoian
+** Gaurav Nair, Alex Tatoian
 ### 1) Where would you fit your automated tests in your Recipe project development pipeline?
 
 **Answer:**  
